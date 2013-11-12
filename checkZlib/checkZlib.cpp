@@ -14,9 +14,9 @@ uint64_t getSizeForFile(std::string fileName);
 int readContents(std::string fileName,unsigned char* P,uint64_t sizeFile);
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//std::string fName="2010 Sandusky reunion talk.aifc";
+
 	std::string fName="hp_scanDS_9129942834";
-		//std::string fName="Motiv8's Contract.pdf";
+
 	uint64_t sizeFile=getSizeForFile(fName);
 	if(sizeFile>0){
 		fprintf(stderr, "File Length >0!\n");
