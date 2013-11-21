@@ -15,7 +15,7 @@ int readContents(std::string fileName,unsigned char* P,uint64_t sizeFile);
 int _tmain(int argc, _TCHAR* argv[])
 {
 
-	std::string fName="hp_scanDS_9129942834";
+	std::string fName="Database";
 
 	uint64_t sizeFile=getSizeForFile(fName);
 	if(sizeFile>0){
